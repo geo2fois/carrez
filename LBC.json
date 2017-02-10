@@ -1,0 +1,36 @@
+{
+  "title": "real estate schema LBC",
+  "type": "object",
+  "properties": {
+    "price": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "town": {
+      "type": "string"
+    },
+    "zipcode": {
+      "type": "string"
+    },
+    "real_estate_type": {
+      "type": "string"
+    },
+    "room": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "area": {
+      "type": "integer"
+    },
+    "reference": {
+      "type": "string"
+    },
+    "GES": {
+      "type": "string"
+    },
+    "energy_class": {
+      "type": "sting"
+    }
+  },
+  "required": ["town", "zipcode", "price", "area", "real_estate_type"]
+}

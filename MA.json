@@ -1,0 +1,31 @@
+{
+  "title": "real estate schema MA",
+  "type": "object",
+  "properties": {
+    "avgapartmentprice": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "avghouseprice": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "town": {
+      "type": "string"
+    },
+    "real_estate_type": {
+      "type": "string"
+    },
+    "room": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "area": {
+      "type": "integer"
+    },
+    "construction_date": {
+      "type": "date"
+    }
+  },
+  "required": ["avghouseprice", "avgapartmentprice"]
+}
